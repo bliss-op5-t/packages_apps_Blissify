@@ -48,6 +48,12 @@
         android:summary="@string/heads_up_notifications_summary"
         android:title="@string/heads_up_notifications"
         android:fragment="org.blissroms.blissify.fragments.HeadsUpSettings"/>
+        
+    <com.bliss.support.preferences.SystemSettingSwitchPreference
+            android:key="reticker_status"
+            android:title="@string/reticker_title"
+            android:summary="@string/reticker_summary"
+            android:defaultValue="false" />
 
     </PreferenceCategory>
 	
